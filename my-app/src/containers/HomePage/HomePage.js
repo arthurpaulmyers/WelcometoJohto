@@ -25,7 +25,7 @@ class HomePage extends Component {
                         <br />
                 <div className = "row">
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <img style={{ width: "auto"}} src={"../../assets/images/Elm.png"} alt={"Professor Elm"} />
+                        <img style={{ width: "auto"}} src={"../../assets/images/Elm.jpg"} alt={"Professor Elm"} />
                     </div>
                     <div className="col-lg-8 col-md-6 col-sm-12">
                         <h1 className="HomeTitle">Welcome to the Johto Region</h1>
@@ -42,13 +42,12 @@ class HomePage extends Component {
                         <br />
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                     </div>
                 </div>
             </div>
+            <hr />
+            <br />
+            <br />
             <div className="container">
                 <div className="row">
                     {loc.map((loc, idx) => {
