@@ -54,7 +54,7 @@ class HomePage extends Component {
                         return (
                             <Link key={loc.id} to={`${appRoutes.locations}/${loc.id}`} className="col-xl-4 col-lg-4 col-md-6 col-sm-12 LocContainer">
                                 <img src={loc.introImg} alt={loc.iTextAlt} />
-                                <h5 className="LocName">{loc.name}</h5>
+                                <p className="LocName">{loc.name}</p>
                             </Link>
                         );
                     })}
