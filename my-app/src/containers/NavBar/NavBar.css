@@ -3,6 +3,13 @@
     max-height: 40px;
 }
 
-.navbar {
+.navbar,
+.navbar-expand-lg{
     background-color: #EAD8A9;
+    color: #243236;
+}
+
+a:link,
+a:visited {
+    color: #243236;
 }

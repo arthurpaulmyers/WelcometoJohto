@@ -2,3 +2,11 @@
     max-width: 40px;
     max-height: 40px;
 }
+
+.footerWhole {
+    /* border-color: #EAD8A9; */
+    /* border-width: 10px; */
+    background-color: #D9DEDE;
+    display: inline-block;
+    width: 100%;
+}

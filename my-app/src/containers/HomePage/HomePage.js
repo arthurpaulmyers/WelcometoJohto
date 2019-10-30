@@ -6,6 +6,8 @@ import LocationsList from "./LocationsList.js";
 
 import "./HomePage.css";
 
+import Elm from "../../assets/images/Elm.jpg";
+
 class HomePage extends Component {
     state = {
         loc: LocationsList
@@ -25,13 +27,14 @@ class HomePage extends Component {
                         <br />
                 <div className = "row">
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <img style={{ width: "auto"}} src={"../../assets/images/Elm.jpg"} alt={"Professor Elm"} />
+                        <img style={{ width: "100%"}} src={Elm} alt={"Professor Elm"} id={"elm"}/>
                     </div>
-                    <div className="col-lg-8 col-md-6 col-sm-12">
+                    <div className="col-lg-8 col-md-6 col-sm-12 MainText">
                         <h1 className="HomeTitle">Welcome to the Johto Region</h1>
+                        <br />
                         <p className="HomePara">I’m Professor Elm, the preeminant Pokemon Professor 
                         in the Johto Region. I give new trainers their first
-                        partner Pokemon in their adventures, but today, I want
+                        Pokemon in their adventures, but today, I want
                         to talk with you about the Johto Region itself.</p>
                         <p className="HomePara">The Johto Region is one of the oldest established 
                         civilizations in our universe, and we have many 
@@ -45,7 +48,7 @@ class HomePage extends Component {
                     </div>
                 </div>
             </div>
-            <hr />
+            <hr className="limwidth"/>
             <br />
             <br />
             <div className="container">

@@ -12,7 +12,12 @@
     object-fit: cover;
     opacity: 0.65;
   }
-  
+
+  .MainText {
+    margin-top: 25%;
+    text-align: right;
+  }
+
   .BannerTextContainer {
     position: absolute;
     top: 0;
@@ -42,9 +47,28 @@
     justify-content: center;
     margin: 20px;
   }
+
+  .Home {
+    background-color: #f2fdff;
+  }
+
+  h1,
+  p {
+    color: #243236;
+  }
+
+  .limwidth {
+    width: 70%
+  }
   
   @media screen and (max-width: 600px) {
     .Banner {
       height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    #elm {
+      display: none;
     }
   }

@@ -24,3 +24,33 @@
     text-align: center;
     font-family: StarWars;
   } */
+
+  .IntroP {
+    text-align: right;
+  }
+
+  .LocationP {
+    text-align: left;
+  }
+
+  .EventP {
+    text-align: right;
+  }
+
+  .NearbyP {
+    text-align: left;
+  }
+  .whole {
+    background-color: #f2fdff
+  }
+
+  h1,
+  p {
+    color: #243236;
+  }
+
+  /* img {
+    max-height: 218px;
+  } */
+
+  

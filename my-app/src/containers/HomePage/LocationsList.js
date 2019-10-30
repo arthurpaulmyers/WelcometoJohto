@@ -89,7 +89,11 @@ export default [
             which houses many local monks."
         ],
         locationText: [
-            "[Update with actual Nara City text]"
+            "The city of Nara is Violet City's inspiration, as shown  \
+            by its proximity to Kyoto (the real-world inspiration \
+            for Ecruteak City) as well as the proximity to the deer \
+            Pokemon, Stantler. The Sprout Tower is thought to be based \
+            upon Nara's Hōryū-ji Pagoda."
         ],
         eventText: [
             "Next to Violet City is a series of strange caves \
@@ -129,7 +133,11 @@ export default [
             a bullet train that takes you to an entirely different region."
         ],
         locationText: [
-            "[Update with actual Osaka City text]"
+            "Goldenrod City's location in Johto and comparatively large \
+            market sector and population make it a fair parallel to Osaka. \
+            In fact, Osaka is the second-largest metropolitan area in Japan. \
+            The National Park above Goldenrod is thought to be based upon the \
+            Expo Commemorative Park, located just north of Osaka."
         ],
         eventText: [
             "Just north of Goldenrod City is the National Park, a \
@@ -170,7 +178,13 @@ export default [
             tallest tower of this city."
         ],
         locationText: [
-            "[Update with actual Kyoto City text]"
+            "Kyoto and Ecruteak are the pair of real-world-and-Pokemon-world \
+            cities that are most clearly-defined in the entire Pokemon universe. \
+            Ecruteak's Bell Tower and Brass Tower are based upon the Buddhist temples of \
+            Kinkaku-ji and Ginkaku-ji, the Temple of the Golden Pavilion and Silver \
+            Pavilion, respectively. However, whereas Kinkaku-ji burned down and was re-built \
+            in Kyoto, the tower of the Phoenix-Pokemon Ho-oh (Pokemon Gold Version's mascot) \
+            remained standing, and the Brass/Silver Tower burned down in Ecruteak City."
         ],
         eventText: [
             "What was once the Brass Tower, standing just as tall as \
@@ -211,7 +225,10 @@ export default [
             many stories to where the Guardian of the Sea is said to rest."
         ],
         locationText: [
-            "[Update with actual Naruto Strait text]"
+            "I really wanted six landmarks for this website, so I included the \
+            Naruto Strait. It is a 1.3km-wide channel that is filled with tidal \
+            Whirlpools. Apparently, the titular character of the manga, Naruto \
+            (Naruto Uzumaki), is named after this strait."
         ],
         eventText: [
             "The Geishas of Ecruteak City are told to tell certain trainers \
@@ -252,7 +269,11 @@ export default [
             rarest and strongest Pokemon in the world."
         ],
         locationText: [
-            "[Update with actual Mt. Fuji text]"
+            "Mt. Fuji can be clearly seen from Shizuoka City as well as from Tokyo -\
+            and many other cities in Japan, for that matter. As such, its positioning \
+            seated nearly directly between the Johto and Kanto regions of the Pokemon \
+            universe makes much sense. The mountain is one of the national symbols \
+            of Japan, and has been the subject of much art and pop-cultural representation."
         ],
         eventText: [
             "Few trainers attempt to scale Mt. Silver, but you are not the first. \

@@ -7,7 +7,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
           <NavLink className="navbar-brand" to={appRoutes.home}>
             <img src={Logo} alt="logo" className="logo-img"/>

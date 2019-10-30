@@ -6,14 +6,9 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    <div className="footerWhole">
     <div className="container Footer">
       <hr />
-      <div className="LogoContainer">
-        <Link to={appRoutes.home}>
-          <img src={Logo} alt="logo" className="logo-img" />
-        </Link>
-      </div>
-      <br />
       <div className="SourceContainer">
         Information adapted from{" "}
         <a
@@ -34,6 +29,13 @@ const Footer = () => {
           https://www.serebii.net/
         </a>
       </div>
+      <br />
+      <div className="LogoContainer">
+        <Link to={appRoutes.home}>
+          <img src={Logo} alt="logo" className="logo-img" />
+        </Link>
+      </div>
+    </div>
     </div>
   );
 };
