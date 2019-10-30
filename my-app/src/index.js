@@ -7,6 +7,10 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+//Thank you so much to Michael Liu for sharing a well-functioning React page. His code allowed
+//me to get a better understanding of React, to know which packages to install on my computer,
+//and which tutorials I needed to take to develop a deeper understanding.
+
 const app = (
     <Router>
         <ScrollToTop>

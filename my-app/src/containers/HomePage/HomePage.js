@@ -50,9 +50,14 @@ class HomePage extends Component {
             <br />
             <div className="container">
                 <div className="row">
-                    {loc.map((loc, idx) => {
+                    {this.state.loc.map((loc, idx) => {
                         return (
-                            <Link key={loc.id} to={`${appRoutes.locations}/${loc.id}`} className="col-xl-4 col-lg-4 col-md-6 col-sm-12 LocContainer">
+                            <Link 
+                            key={loc.id} 
+                            to={`${appRoutes.location}/${loc.id}`} 
+                            className="col-xl-4 col-lg-4 col-md-6 col-sm-12 LocContainer"
+                            id={`link-${loc.id}`}
+                            >
                                 <img src={loc.introImg} alt={loc.iTextAlt} />
                                 <p className="LocName">{loc.name}</p>
                             </Link>

@@ -29,7 +29,7 @@ function App() {
       </header> */}
 
       <div className = "MainContent">
-        {/* <Switch> */}
+        <Switch>
           <Route exact path={appRoutes.home}>
             <HomePage />
           </Route>
@@ -37,7 +37,7 @@ function App() {
             <LocationsPage />
           </Route>
           <Redirect to = {appRoutes.home} />
-        {/* </Switch> */}
+        </Switch>
       </div>
 
       <Footer />
